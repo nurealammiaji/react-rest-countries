@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.country-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.country-card {
+  text-align: left;
+  padding: 5px;
+  background-image: linear-gradient(lightblue, skyblue);
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+.country-card li {
+  list-style: none;
+  margin: 5px 0px;
+}
+
+.country-card img {
+  width: 200px;
+  height: 125px;
+}
